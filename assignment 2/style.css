@@ -1,0 +1,27 @@
+body{
+    width: 1900px;
+}
+.section{
+    width: 100%;
+}
+.section1{
+    color: white;
+    background-color: rgb(222, 160, 135);
+    width: 100%;
+    height: 450px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./Muschel-Spaghetti\ in\ Tomatensugo.jpeg);
+    background-size: contain;
+    
+    text-align: center;
+}
+.but{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    background-image: url(./Evil-Geniuses-header-img-1024x576\ \(copy\).webp);
+}
+    
+
