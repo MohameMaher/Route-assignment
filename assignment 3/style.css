@@ -1,0 +1,235 @@
+*{
+    font-family: "Alegreya", serif;
+    box-sizing: border-box;
+}
+body{
+margin: 0; 
+padding: 0;   
+}
+.home{
+background-image: url(./images/drew-coffman-1872.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center ;
+}
+/*navbar style*/
+.navbar{
+width: 90%;
+margin: auto;
+}
+
+.logo{
+float: left;
+width: 200px;
+}
+.logo img{
+width: 100%;
+}
+.list{
+float: right;
+}
+.clr{
+    clear: both;
+}
+.list ul li{
+    display: inline-block;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+}
+/*home-content style*/
+.home-content{
+text-align: center;
+padding-top: 200px;
+}
+.home-content h1{
+font-size: 48px;
+font-weight: bold;
+color: white;
+}
+.home-content p{
+font-size: 24px;
+color: white;
+}
+.btn-1{
+    background-color: #8e7754;
+    padding:13px 28px;
+    border-radius: 5px;
+    border: 2px solid #8e7754;
+    font-size: 17px;
+    margin-top: 14px;
+    transition: all 0.5;
+}
+.btn-2{
+    background-color: transparent ;
+    border: 2px solid white;
+    color: white; 
+    font-size: 17px; 
+    padding: 13px 28px;
+    font-weight: 900;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #8e7754;
+}
+/*who we are*/
+.who-we-are{
+    padding: 50px 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+.who-image{
+    width: 40%;
+    display: inline-block;
+
+}
+.who-content h4{
+    font-size: 35px;
+    font-weight: 200px;
+}
+.who-image img{
+    width: 100%;
+}
+.who-content{
+width: 40%;
+display: inline-block;
+padding-left: 50px;
+vertical-align: 200px;
+}
+.icons img{
+    display: inline-block;
+}
+.icons p{
+    display: inline-block;
+    vertical-align: 13px;
+}
+/*location*/
+.container1{
+    width: 100%;
+    margin: auto;
+
+}
+.location{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 700px;
+    
+
+}
+.location .image{
+    width: 45%;
+    margin-right: 40px;
+    margin:bottom auto;
+    float: right;
+}
+.location .image img{
+    
+    width: 100%;
+    float : left;
+    border-radius: 8px;
+    height: auto;
+}
+.location-content h4{
+    font-size: 40px;
+    font-weight: 200px;
+}
+.location-content {
+    width: 40%;
+    text-align: left;
+    margin-left: px;
+    padding-inline: 30px;
+    font-size: 30px;
+    
+    
+}
+.location h4{
+    font-size: 30px;
+    padding-right: 500px;
+    padding: 20px; 
+}
+/*baking*/
+.baking{
+    text-align: center;
+    padding: 50px 0;
+}
+.baking h2{
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.baking p{
+ color: #888;  
+}
+.item{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+.item img{
+    width: 100%;
+    border-radius: 8px;
+}
+.item h4{
+    font-size: 24px;
+    font-weight: 200;
+}
+/*footer*/
+.foter{
+    background-color: #403d38;
+    padding: 20px;
+}
+.foter .card{
+    width: 25%;
+    float: left;
+    color: #fff;
+    padding: 20px;
+}
+.foter .card h4{
+    font-size: 20px;
+    font-weight: 200;
+}
+.foter .card p{
+    color: #969696;
+    line-height: 30px;
+}
+.icons{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+/*last section*/
+.section7{
+  
+    overflow: auto;
+
+   
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    
+    background-color: rgba(72, 69, 64,1);
+}
+
+.section7 img{
+    border-radius: 30px;
+    background-color: rgb(72, 69, 64);
+ 
+width:50px;
+}
+
+#img_one{
+ 
+  width: 360px;
+    overflow: hidden;
+   padding-block: 100px;
+    background-color: transparent;
+   
+}
