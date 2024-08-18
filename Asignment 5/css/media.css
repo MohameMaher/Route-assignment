@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+  .chefs .container {
+    flex-wrap: wrap;
+  }
+  .chefs .chef {
+    width: 100%;
+  }
+
+  .gallery .meal {
+    width: 100%;
+  }
+
+  .gallery .container {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 852px) {
+  .chefs .container {
+    flex-wrap: wrap;
+  }
+  .chefs .chef {
+    width: calc((100% - 30px) / 2);
+  }
+
+  .gallery .container {
+    height: 1310px;
+  }
+  .gallery .meal {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 853px) and (max-width: 992px) {
+  .gallery .container {
+    height: 1560px;
+  }
+
+  .gallery .meal {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .chefs .container {
+    width: 90%;
+  }
+  .gallery .container {
+    height: 870px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pizza1 {
+    order: 1;
+  }
+  .burger {
+    order: 2;
+  }
+  .pizza2 {
+    order: 3;
+  }
+  .frittata {
+    order: 4;
+  }
+  .beef {
+    order: 5;
+  }
+  .crispy {
+    order: 6;
+  }
+  .kofta {
+    order: 7;
+  }
+}
