@@ -1,0 +1,205 @@
+
+ .container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 0.5fr 0.5fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "item1 phone item3 item3"
+    "keyboard Macintosh item6 flopy"
+    "cont ux ux flopy"
+    "twitter item11 tv tv"; 
+}
+#item1{
+  position: absolute;
+  left: 20%;
+  top: -10%;
+  color: rgba(0, 0, 0, 0.292);
+
+}
+.item3 a{
+  color: aqua;
+}
+#p{
+  color: rgba(0, 0, 0, 0.292);
+}
+#d{
+font-size: 20px;
+}
+.item1 { grid-area: item1;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  margin-top: 100px;
+}
+#ho,#e,#c{
+  font-size: 40px;
+}
+#learn{
+  color: rgba(0, 0, 0, 0.292);
+}
+
+.phone { grid-area: phone; 
+  width: 450px;
+  height: fit-content;
+margin-left: 40px;
+}
+.phone img{
+  width: 70%;
+}
+
+.item3 { grid-area: item3; 
+background-color: rgba(220, 220, 220, 0.472);
+text-align: center;}
+
+.keyboard { grid-area: keyboard;
+  text-align: center;
+  width: 350px;
+  background-color: #f05638;
+  color: white;
+}
+.keyboard p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.keyboard img{
+  width: 70%;
+} 
+
+.Macintosh { grid-area: Macintosh;
+  text-align: center;
+  font-family: Arvo, sans-serif;
+  font-size: 22px;
+width:550px ; }
+.Macintosh img{
+  width: 80%;
+}
+#ma{
+  color: rgba(0, 0, 0, 0.146);
+}
+
+.item6 { grid-area: item6; 
+  margin-top: 44px;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+
+}
+.item6 h6{
+  color: aqua;
+} 
+.cont { grid-area: cont;
+  text-align: center;
+width: 340px; 
+margin-top: 100px;}
+.cont  img{
+  width: 65%;
+}
+.ux { grid-area: ux;
+  position: relative;
+  text-align: center;
+color: white;
+
+width: 900px;
+background-image:url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed97dab707e7e_UX.png) ;
+background-color: #8EBFC8;
+}
+.ux h2,h3{
+  font-family: Arvo, sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+.ux button{
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #fa684f;
+  border: none;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+
+} 
+.ux img{
+  width: 100%;
+}
+
+.flopy { grid-area: flopy;
+  background-color: #8E6DB3;
+
+text-align: center;
+width: 500px; }
+.flopy img{
+  width:50%;
+  margin-top: 140px ;
+}
+
+.flopy button{
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #ffc80a;
+border: none;
+color: #000;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+}
+.twitter { grid-area: twitter;
+  text-align: center;
+  align-items: center;
+  background-color: #38d5f4;
+  color: #fff; }
+  .twitter img{
+      margin-top: 50px;
+  }
+.item11 { grid-area: item11;
+text-align: center;
+margin-top:100px ;
+
+}
+.item11 h2{
+  line-height: 32px;
+  font-weight: 400;
+}
+.item11 button{
+  background-color: #7bc424;
+  color: white;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+}
+.tv { grid-area: tv;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+background-color: black;
+color: aliceblue; 
+margin-left: 100px;}
+.tv img{
+  width: 30%;
+}
+.tv h2{
+  position: absolute;
+  right: 30%;
+  top: 30%;
+  
+}
+.tv h3{
+  position: absolute;
+  right: 48%;
+  top: 40%;
+  bottom: 40%;
+  font-size: 20px;
+} 
+/*   .item13 { grid-area: item13;
+color: white;
+background-color: black; } */
