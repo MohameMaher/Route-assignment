@@ -1,0 +1,41 @@
+body {
+    background-color: #f9eedb;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+    color: #b76e3f;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn-block {
+    background-color: #b76e3f;
+    border: none;
+}
+
+.btn-block:hover {
+    background-color: #a55c2f;
+}
+
+hr {
+    border-top: 2px dashed #b76e3f;
+    margin: 20px 0;
+}
